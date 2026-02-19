@@ -1,0 +1,40 @@
+{
+  "id": "A7X9P2",
+  "timestamp": "2026-02-19T10:45:32Z",
+  "status": "active",
+  "user": {
+    "name": "Random User",
+    "age": 27,
+    "email": "random27@example.com",
+    "verified": true
+  },
+  "location": {
+    "country": "India",
+    "state": "Madhya Pradesh",
+    "coordinates": {
+      "lat": 23.2599,
+      "lng": 77.4126
+    }
+  },
+  "preferences": {
+    "theme": "dark",
+    "notifications": true,
+    "languages": ["English", "Hindi"]
+  },
+  "orders": [
+    {
+      "orderId": 101,
+      "amount": 599.99,
+      "currency": "INR",
+      "items": 3
+    },
+    {
+      "orderId": 102,
+      "amount": 1299.50,
+      "currency": "INR",
+      "items": 5
+    }
+  ],
+  "tags": ["sample", "test", "random", "json"],
+  "score": 87.45
+}

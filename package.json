@@ -1,0 +1,23 @@
+{
+  "name": "my-class-work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UtkarshaSharma24/my-class-work.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UtkarshaSharma24/my-class-work/issues"
+  },
+  "homepage": "https://github.com/UtkarshaSharma24/my-class-work#readme",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
