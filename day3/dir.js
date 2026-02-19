@@ -1,3 +1,5 @@
+//  git push --force origin main
+
 const fs = require("fs").promises;
 
 async function makeDirSyn(folderName) {
@@ -35,3 +37,20 @@ async function readDirectory(folderName) {
 }
 
 readDirectory("demo");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
