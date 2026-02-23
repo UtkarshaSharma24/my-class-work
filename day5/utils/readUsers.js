@@ -1,8 +1,11 @@
-const fs = require("fs").promises;
+import fs from "fs/promises";
 
-async function readUsers() {
-  const data = await fs.readFile("users.json", "utf-8");
-  return JSON.parse(data);
+export const readAndWrite = async (Path) => {
+  try {
+    const data = await fs.readFile(Path, "utf-8");
+    const jsonData = JSON.parse(data);
+    return jsonData;
+  } catch (error) {
+    console.log("unable to read the file", error);
+  }
 }
-
-module.exports = { readUsers };
