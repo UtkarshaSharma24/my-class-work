@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: navy;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
